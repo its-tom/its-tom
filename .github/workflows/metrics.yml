@@ -18,8 +18,3 @@ jobs:
           base: header, repositories
           config_padding: 0%
           plugin_isocalendar: yes
-          plugin_stock: yes
-          plugin_stock_token: ${{ secrets.STOCK_TOKEN }} # RapidAPI Yahoo Finance token
-          plugin_stock_symbol: TSLA                      # Display Tesla stock price
-          plugin_stock_duration: 1d                      # Display last day of market
-          plugin_stock_interval: 5m                      # Use precision of 5 minutes for each record
